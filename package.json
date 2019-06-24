@@ -1,12 +1,16 @@
 {
   "name": "nodejs_portfolio-master",
-  "version": "1.0.0",
-  "description": "Portfolio of Node js",
-  "main": "server.js",
+  "description": "hello my node-app",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon index.js"
   },
-  "author": "Harshpreet Singh",
-  "license": "MIT"
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
 }
